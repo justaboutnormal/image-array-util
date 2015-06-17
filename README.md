@@ -17,4 +17,4 @@ if you have it.
 
 Copyright © 2015 Mahon Baldwin, justaboutnormal developers.
 
-Distributed under the MIT Licence.
+Distributed under the [MIT Licence](image-array-util/blob/master/LICENSE).
