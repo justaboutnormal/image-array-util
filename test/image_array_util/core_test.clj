@@ -5,7 +5,7 @@
 
 ;one triplet represents a RGB pixel e.g. [1 2 3]
 ;grayscale pixels can be represented by a single value 0-255
-;outer must vector represents entire image
+;outer most vector represents entire image
 ;inner vectors that do not represent pixels are rows e.g. [[row 1][row 2]]
 
 (deftest rotate-image-test

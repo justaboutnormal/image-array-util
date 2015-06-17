@@ -13,7 +13,3 @@
 
 (defn crop-image [image [vertical-s vertical-e] [horizontal-s horizontal-e]]
   (map #(subvec % horizontal-s horizontal-e) (subvec image vertical-s vertical-e)))
-
-
-(fn [x]
-  (fn [p] (reduce (fn [v c] (* v p)) p (range (- x 1)))))
